@@ -1,0 +1,188 @@
+@use '../custom' as *;
+@use 'utils/mixins';
+
+.css-typing h2 {
+    border-right: .15em solid $primary;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.css-typing h2:nth-child(1) {
+    width: 28rem;
+    -webkit-animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+// segundo
+
+
+.css-typing2 h2 {
+    border-right: .15em solid $primary;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.css-typing2 h2:nth-child(1) {
+    width: 31rem;
+    -webkit-animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+// Tercero
+
+
+.css-typing3 h2 {
+    border-right: .15em solid $primary;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.css-typing3 h2:nth-child(1) {
+    width: 22rem;
+    -webkit-animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type 3s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+// Animacion textos
+
+
+.css-text-flow{
+    overflow:hidden;
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+}
+
+// Css Scroll up

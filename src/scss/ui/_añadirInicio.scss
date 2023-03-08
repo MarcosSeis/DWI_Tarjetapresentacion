@@ -1,0 +1,24 @@
+@use '../custom' as *;
+
+.datos-inicio {
+    padding-bottom: 7rem;
+
+    p {
+        margin-bottom: 0 !important;
+        color: $primary;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    i {
+        font-size: 3.5rem;
+        color: $primary;
+    }
+
+    h2, h4 {
+        margin-bottom: 0!important;
+    }
+    
+
+
+}

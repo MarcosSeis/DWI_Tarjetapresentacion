@@ -1,0 +1,41 @@
+@use '../custom' as *;
+
+.datos-contacto {
+
+    padding-bottom: 6rem;
+
+    h2, h4 {
+        margin-bottom: 0!important;
+    }
+
+    i{
+        color: $blanco;
+        font-size: 3rem;
+      
+    }
+
+    .links-contacto {
+        a{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+       
+    }
+
+    .logos-contacto {
+
+        .logos-indi{
+            border-radius: 0.5rem;
+        }
+   
+       
+      
+        i, p {
+            color: $azul;
+        }
+        
+        
+    }
+
+}

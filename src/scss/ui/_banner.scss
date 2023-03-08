@@ -1,0 +1,113 @@
+@use '../custom' as *;
+
+
+
+
+.empresaMenus{
+    
+    img{
+        max-width: 8rem;
+        transition-timing-function: ease-in;
+        transition: 0.2s;
+        margin-top: -4rem;
+        position: relative;
+        z-index: 100;
+    }
+
+    .borde-izq {
+        transition-timing-function: ease-in;
+        transition: 0.2s;
+        width: 12rem;
+        height: 14rem;
+        position: absolute;
+        margin-top: 11rem;
+        margin-left: -4rem;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.31);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.31);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.31);
+    }
+}
+
+.perfilMenus{
+
+    border-radius: 2rem;
+    position: relative;
+
+    .puesto{
+        margin-top: -2.5rem;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: $negro;
+    }
+
+    .foto-perfil{
+
+        margin-top: -15rem;
+        background: rgba(255,255,255,0.25);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.125);
+        border-radius: 2rem;
+        width: 30rem;
+
+        img {
+            transition-timing-function: ease-in;
+            transition: 0.2s;
+            position: relative;
+            margin-top: -5rem;
+            max-width: 13rem;
+            border-radius: 50%;
+            border-style: double;
+            border-width: 1rem;
+            border-color: #fff;
+            
+        }
+
+      
+
+    }
+
+   
+    .texto-marcado{
+        border-style: solid;
+        margin-left: -7rem;
+        width: 4rem;
+        display: inline-block;
+        position: absolute;
+        margin-top: 0.6rem;
+        color: #0079dd;
+
+    }
+    p{
+      
+        margin-left: 7rem;
+    }
+
+    .fondo {    
+        margin-left: 3rem;
+        
+        span{
+            background-color: black;
+            border-radius: 2rem;
+            padding: 1% 3%;
+        }
+    
+    }
+  
+}
+
+.cerrar {
+    position: fixed;
+    width: 101px;
+    height: 23px;
+    z-index: 100;
+    top: 40px;
+    right: 19px;
+    background-color: $secondary;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}

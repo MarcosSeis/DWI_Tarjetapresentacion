@@ -1,0 +1,40 @@
+@use '../custom' as *;
+
+
+.datos-ubicacion {
+    padding-bottom: 7rem;
+
+    p {
+        margin-bottom: 0 !important;
+    }
+
+    i {
+        font-size: 1.5rem;
+        color: $primary;
+    }
+
+    h2, h4 {
+        margin-bottom: 0!important;
+    }
+
+    .mapa{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+
+    }
+
+    .mapa iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+
+    }
+
+    
+
+
+}

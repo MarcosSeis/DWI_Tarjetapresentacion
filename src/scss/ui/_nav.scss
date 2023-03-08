@@ -1,0 +1,19 @@
+@use '../custom' as *;
+
+.navbar{
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+
+ 
+    
+}
+
+nav {
+    i{
+        color: $blanco;
+        font-size: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+      
+    }
+}
